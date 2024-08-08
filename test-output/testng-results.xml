@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched and maximized successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Starting negative login test with invalid email...]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to the automation exercise website.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Signup / Login' button.]]>
+    </line>
+    <line>
+      <![CDATA[Entered invalid email address.]]>
+    </line>
+    <line>
+      <![CDATA[Entered valid password.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the 'Login' button.]]>
+    </line>
+    <line>
+      <![CDATA[Login failed as expected. Error message is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Starting negative login test with invalid password...]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to the automation exercise website.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Signup / Login' button.]]>
+    </line>
+    <line>
+      <![CDATA[Entered valid email address.]]>
+    </line>
+    <line>
+      <![CDATA[Entered invalid password.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the 'Login' button.]]>
+    </line>
+    <line>
+      <![CDATA[Login failed as expected. Error message is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Starting positive login test...]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to the automation exercise website.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Signup / Login' button.]]>
+    </line>
+    <line>
+      <![CDATA[Entered valid email address.]]>
+    </line>
+    <line>
+      <![CDATA[Entered valid password.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the 'Login' button.]]>
+    </line>
+    <line>
+      <![CDATA[Login successful, 'Logout' button is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Logout' button.]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-09T03:00:11 IST" name="Default suite" finished-at="2024-08-09T03:00:35 IST" duration-ms="24215">
+    <groups>
+    </groups>
+    <test started-at="2024-08-09T03:00:11 IST" name="Default test" finished-at="2024-08-09T03:00:35 IST" duration-ms="24215">
+      <class name="automationexerciseshoping.LoginFunctionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automationexerciseshoping.LoginFunctionality@18df8434]" started-at="2024-08-09T03:00:11 IST" name="setUp" finished-at="2024-08-09T03:00:15 IST" duration-ms="4279" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched and maximized successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLoginTestInvalidEmail()[pri:0, instance:automationexerciseshoping.LoginFunctionality@18df8434]" started-at="2024-08-09T03:00:15 IST" name="negativeLoginTestInvalidEmail" finished-at="2024-08-09T03:00:22 IST" duration-ms="6395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting negative login test with invalid email...]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to the automation exercise website.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Signup / Login' button.]]>
+            </line>
+            <line>
+              <![CDATA[Entered invalid email address.]]>
+            </line>
+            <line>
+              <![CDATA[Entered valid password.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the 'Login' button.]]>
+            </line>
+            <line>
+              <![CDATA[Login failed as expected. Error message is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestInvalidEmail -->
+        <test-method signature="negativeLoginTestInvalidPassword()[pri:0, instance:automationexerciseshoping.LoginFunctionality@18df8434]" started-at="2024-08-09T03:00:22 IST" name="negativeLoginTestInvalidPassword" finished-at="2024-08-09T03:00:26 IST" duration-ms="4755" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting negative login test with invalid password...]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to the automation exercise website.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Signup / Login' button.]]>
+            </line>
+            <line>
+              <![CDATA[Entered valid email address.]]>
+            </line>
+            <line>
+              <![CDATA[Entered invalid password.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the 'Login' button.]]>
+            </line>
+            <line>
+              <![CDATA[Login failed as expected. Error message is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTestInvalidPassword -->
+        <test-method signature="positiveLoginTest()[pri:0, instance:automationexerciseshoping.LoginFunctionality@18df8434]" started-at="2024-08-09T03:00:26 IST" name="positiveLoginTest" finished-at="2024-08-09T03:00:34 IST" duration-ms="7200" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting positive login test...]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to the automation exercise website.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Signup / Login' button.]]>
+            </line>
+            <line>
+              <![CDATA[Entered valid email address.]]>
+            </line>
+            <line>
+              <![CDATA[Entered valid password.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the 'Login' button.]]>
+            </line>
+            <line>
+              <![CDATA[Login successful, 'Logout' button is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Logout' button.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationexerciseshoping.LoginFunctionality@18df8434]" started-at="2024-08-09T03:00:34 IST" name="tearDown" finished-at="2024-08-09T03:00:35 IST" duration-ms="1487" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationexerciseshoping.LoginFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
