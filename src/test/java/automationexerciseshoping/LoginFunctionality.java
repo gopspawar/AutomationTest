@@ -102,6 +102,7 @@ public class LoginFunctionality {
         WebElement username = driver.findElement(By.xpath("(//input[@data-qa='login-email'])[1]"));
         username.sendKeys("invalidemail@gmail.com");
         Reporter.log("Entered invalid email address.", true);
+        System.out.println("Username: "+username);
 
         WebElement pass = driver.findElement(By.xpath("//input[@placeholder='Password']"));
         pass.sendKeys("rajvarma");
